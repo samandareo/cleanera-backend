@@ -121,7 +121,7 @@ Email: {email}
         """
 
         send_telegram_message_async(TELEGRAM_CHAT_ID, telegram_message)
-        send_email_async("cleanera.manager@example.com", "Новый запрос на уборку", admin_email_body)
+        send_email_async("cleanera.manager@gmail.com", "Новый запрос на уборку", admin_email_body)
         send_email_async(email, "Ваш запрос на уборку", user_email_body)
 
         return jsonify({"success": True, "message": "Request processed successfully!"})
@@ -211,7 +211,7 @@ Email: {email}
         """
 
         send_telegram_message_async(TELEGRAM_CHAT_ID, telegram_message)
-        send_email_async("cleanera.manager@example.com", "Новый запрос на услугу няни", admin_email_body)
+        send_email_async("cleanera.manager@gmail.com", "Новый запрос на услугу няни", admin_email_body)
         send_email_async(email, "Ваш запрос на услугу няни", user_email_body)
 
         return jsonify({"success": True, "message": "Request processed successfully!"})
@@ -276,7 +276,7 @@ Email: {email}
         """
 
         send_telegram_message_async(TELEGRAM_CHAT_ID, telegram_message)
-        send_email_async("cleanera.manager@example.com", "Новый запрос на вакансию няни", admin_email_body)
+        send_email_async("cleanera.manager@gmail.com", "Новый запрос на вакансию няни", admin_email_body)
         send_email_async(email, "Ваш запрос на вакансию няни", user_email_body)
 
         return jsonify({"success": True, "message": "Request processed successfully!"})
@@ -344,7 +344,7 @@ Email: {email}
         """
 
         send_telegram_message_async(TELEGRAM_CHAT_ID, telegram_message)
-        send_email_async("cleanera.manager@example.com", "Новый запрос на вакансию уборщика", admin_email_body)
+        send_email_async("cleanera.manager@gmail.com", "Новый запрос на вакансию уборщика", admin_email_body)
         send_email_async(email, "Ваш запрос на вакансию уборщика", user_email_body)
 
         return jsonify({"success": True, "message": "Request processed successfully!"})
